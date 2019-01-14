@@ -1,7 +1,7 @@
 # README FIRST
 
 ## Notes:
-This mobile paralel testing automation using TestNG.
+This paralel testing mobile automation using TestNG.
 
 ## Tools:
 1. Intellij IDEA
