@@ -20,6 +20,8 @@ public class Capabilities extends DesiredCapabilities {
         capabilities.setCapability("systemPort", systemPort);
         capabilities.setCapability("appPackage", "com.gojek.app");
         capabilities.setCapability("appActivity", "com.gojek.app.home.HomeActivity");
+        //capabilities.setCapability("app", "https://github.com/saucelabs/sample-app-mobile/releases/download/2.2.1/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.1.1.zip);
+
 
         //Start the server
         service = AppiumDriverLocalService.buildDefaultService();
